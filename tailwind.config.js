@@ -13,6 +13,9 @@ module.exports = {
       'white': '#ffffff',
       'black': '#000000',
     },
+    backgroundImage: {
+      'panel': "url('/src/assets/panel.jpg')",
+    },
   },
   plugins: [],
 }
