@@ -11,6 +11,10 @@ export default function Navbar() {
 
   if (scrollPosition > 1 && scrollPosition < 88) {
     document.getElementById("logo").style.height = 144 - scrollPosition + "px";
+  } else if (scrollPosition > 88) {
+    document.getElementById("logo").style.height = 56 + "px";
+  } else {
+    document.getElementById("logo").style.height = 144 + "px";
   }
 
   return (
