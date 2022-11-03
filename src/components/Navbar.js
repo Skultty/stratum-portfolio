@@ -1,9 +1,7 @@
-import React, { Component } from "react";
-import { FaBars } from "react-icons/fa";
+import React from "react";
 import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
 import { useScrollPosition } from "../hooks/useScrollPosition";
-import { useEffect } from "react";
 
 export default function Navbar() {
   const scrollPosition = useScrollPosition();
@@ -16,10 +14,10 @@ export default function Navbar() {
   }
 
   return (
-    <div className="fixed flex flex-row w-full  bg-gray-3 shadow-xl">
+    <div className="fixed flex flex-row w-full  bg-gray-3 shadow-xl ">
         <div className="flex-1 flex justify-center mt-auto mb-auto">
 
-          <Link to="porfolio" smooth={true} duration={500} className="cursor-pointer  transition-colors duration-300 hover:text-custom-yellow text-white font-bold fo py-2 mx-5 select-none">Portfólio</Link>
+          <Link to="portfolio" smooth={true} duration={500} offset={-66} className="cursor-pointer  transition-colors duration-300 hover:text-custom-yellow text-white font-bold fo py-2 mx-5 select-none">Portfólio</Link>
 
           <Link to="offer" smooth={true} duration={500} className="cursor-pointer  transition-colors duration-300 hover:text-custom-yellow text-white font-bold py-2  mx-5 select-none">Cenová ponuka</Link>
         

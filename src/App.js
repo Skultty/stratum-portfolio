@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
 
 
 function App() {
@@ -9,11 +10,11 @@ function App() {
   };
   console.log(arr);
   return (
-    <div>
+    <main>
       <Navbar/>
       <About/>
-      {[...arr]}
-    </div>
+      <Portfolio/>
+    </main>
   );
 }
 
