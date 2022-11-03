@@ -22,7 +22,7 @@ export default function Portfolio() {
     loop: true,
   };
   return (
-    <section className="h-screen bg-gray flex flex-col items-center justify-center">
+    <section id="portfolio" className="h-screen bg-gray flex flex-col items-center justify-center">
       <Swiper {...swiperParameters}>
         <SwiperSlide>
           <img
