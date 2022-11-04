@@ -69,3 +69,7 @@
 
   z-index: 0;
 }
+
+:root {
+  --swiper-navigation-color: #fff;
+}
